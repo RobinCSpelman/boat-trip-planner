@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Copilot" xmlns="http://www.topografix.com/GPX/1/1">
+  <wpt lat="36.2676" lon="-76.1749">
+    <name>Weeksville, NC</name>
+  </wpt>
+  <wpt lat="35.9080" lon="-75.6757">
+    <name>Manteo, NC</name>
+  </wpt>
+  <wpt lat="35.1145" lon="-75.9810">
+    <name>Ocracoke, NC</name>
+  </wpt>
+  <rte>
+    <name>Weeksville to Ocracoke via Manteo</name>
+    <rtept lat="36.2676" lon="-76.1749">
+      <name>Weeksville, NC</name>
+    </rtept>
+    <rtept lat="35.9080" lon="-75.6757">
+      <name>Manteo, NC</name>
+    </rtept>
+    <rtept lat="35.1145" lon="-75.9810">
+      <name>Ocracoke, NC</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_54efa2be7f6dfd201c5ca6fb093e37c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_54efa2be7f6dfd201c5ca6fb093e37c1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_54efa2be7f6dfd201c5ca6fb093e37c1 = L.map(
+                "map_54efa2be7f6dfd201c5ca6fb093e37c1",
+                {
+                    center: [35.75, -76.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_83f2b84d538aeadf2dabf742e9739924 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_83f2b84d538aeadf2dabf742e9739924.addTo(map_54efa2be7f6dfd201c5ca6fb093e37c1);
+        
+    
+            var marker_437f9d40fcb001aa216541bb4adea95a = L.marker(
+                [36.2676, -76.1744],
+                {
+}
+            ).addTo(map_54efa2be7f6dfd201c5ca6fb093e37c1);
+        
+    
+        var popup_d09a710f6c401192dc86287446d9fde5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56e757ed05c5bbcb87be0ebb63b918a9 = $(`<div id="html_56e757ed05c5bbcb87be0ebb63b918a9" style="width: 100.0%; height: 100.0%;">Weeksville, NC</div>`)[0];
+                popup_d09a710f6c401192dc86287446d9fde5.setContent(html_56e757ed05c5bbcb87be0ebb63b918a9);
+            
+        
+
+        marker_437f9d40fcb001aa216541bb4adea95a.bindPopup(popup_d09a710f6c401192dc86287446d9fde5)
+        ;
+
+        
+    
+    
+            var marker_184b8d464f31dbc00e1b2dc2abd4b5e6 = L.marker(
+                [35.9085, -75.6755],
+                {
+}
+            ).addTo(map_54efa2be7f6dfd201c5ca6fb093e37c1);
+        
+    
+        var popup_7ad6c0a0f8e3ff1081f0915ec8da209b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c0734165439949a8628f4dd166b1d1b = $(`<div id="html_5c0734165439949a8628f4dd166b1d1b" style="width: 100.0%; height: 100.0%;">Manteo, NC</div>`)[0];
+                popup_7ad6c0a0f8e3ff1081f0915ec8da209b.setContent(html_5c0734165439949a8628f4dd166b1d1b);
+            
+        
+
+        marker_184b8d464f31dbc00e1b2dc2abd4b5e6.bindPopup(popup_7ad6c0a0f8e3ff1081f0915ec8da209b)
+        ;
+
+        
+    
+    
+            var marker_5acd4361c37b3ca50a4f3e7615a30d23 = L.marker(
+                [35.1146, -75.9813],
+                {
+}
+            ).addTo(map_54efa2be7f6dfd201c5ca6fb093e37c1);
+        
+    
+        var popup_ddfe77072d401b87d6122c0228cf6a4c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dab60b5bd9e5161829f4190837764210 = $(`<div id="html_dab60b5bd9e5161829f4190837764210" style="width: 100.0%; height: 100.0%;">Ocracoke, NC</div>`)[0];
+                popup_ddfe77072d401b87d6122c0228cf6a4c.setContent(html_dab60b5bd9e5161829f4190837764210);
+            
+        
+
+        marker_5acd4361c37b3ca50a4f3e7615a30d23.bindPopup(popup_ddfe77072d401b87d6122c0228cf6a4c)
+        ;
+
+        
+    
+    
+            var poly_line_9651b3784eb6cee1a6a47853cb356bf1 = L.polyline(
+                [[36.2676, -76.1744], [35.9085, -75.6755], [35.1146, -75.9813]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 4.5}
+            ).addTo(map_54efa2be7f6dfd201c5ca6fb093e37c1);
+        
+</script>
+</html>
